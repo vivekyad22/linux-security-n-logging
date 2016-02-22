@@ -1,1 +1,31 @@
 # linux-security-n-logging
+
+SECURITY
+-------------------------------------------------------------------
+Installing psacct or acct Packages
+Lockdown Cronjobs
+Disable Ctrl+Alt+Delete in Inittab
+Ignore ICMP or Broadcast Request
+Changing Public ports
+Implement fail2ban to Ban Malicious IP Addresses
+Maldet for malware attacks
+IDS Tripwire - detect when files changed on system
+logwatch install for email logs
+Prevent rootkit by installing (rkhunter), and chkrootkit
+providing rshell to users
+Enable ExecShield
+Minimizing C & C++ programming defects like buffer overflows & removing it by Address space layout randomization
+One of the ExecShield memory-management techniques is using random memory locations each time a program is started. Using random memory locations prevents worms or viruses from knowing which parts of memory to overwrite with executables that breach the security of the system. 
+Limit amount of processes in /etc/security/limits.conf , hard & soft nproc
+
+
+LOGGING
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+ 
+
+
+
+
