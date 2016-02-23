@@ -21,8 +21,11 @@ Limit amount of processes in /etc/security/limits.conf , hard & soft nproc
 
 LOGGING
 ----------------------------------------------------------------------------------------------------------------------------------
+http://www.tecmint.com/best-linux-log-monitoring-and-management-tools/
 
 
+Logstash , greylog2 , http://www.slashroot.in/logstash-tutorial-linux-central-logging-server
+rsyslog
 
  
 
