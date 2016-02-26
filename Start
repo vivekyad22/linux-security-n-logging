@@ -3,9 +3,13 @@
 SECURITY
 -------------------------------------------------------------------
 Installing psacct or acct Packages
+      Monitor per user process stats 
 Lockdown Cronjobs
+      /etc/cron.deny & /etc/at.deny
 Disable Ctrl+Alt+Delete in Inittab
+      ca:12345:ctrlaltdel:/bin/echo "CTRL-ALT-DEL is disabled"
 Ignore ICMP or Broadcast Request
+      /etc/sysctl.conf || net.ipv4.icmp_echo_ignore_broadcasts = 1 net.ipv4.icmp_echo_ignore_all = 1 || sysctl -p
 Changing Public ports
 Implement fail2ban to Ban Malicious IP Addresses
 Maldet for malware attacks
