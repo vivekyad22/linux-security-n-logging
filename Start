@@ -1,5 +1,9 @@
 # linux-security-n-logging
 
+Hardening linux security & centralized logging by configuring kernel sysctl parameters, locking crons, fail2ban, IDS, maldet, rsyslog , logstash etc .
+
+
+
 SECURITY
 -------------------------------------------------------------------
 Installing psacct or acct Packages
@@ -14,6 +18,7 @@ Changing Public ports
 Implement fail2ban to Ban Malicious IP Addresses
 Maldet for malware attacks
 IDS Tripwire - detect when files changed on system
+
 logwatch install for email logs
 Prevent rootkit by installing (rkhunter), and chkrootkit
 providing rshell to users
